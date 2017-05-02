@@ -1,0 +1,4 @@
+See file:///Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/tmp/linkHelloARVideoNativeArmeabi-v7aDebugSharedLibrary/output.txt for all output for linkHelloARVideoNativeArmeabi-v7aDebugSharedLibrary.
+linking libHelloARVideoNative.so successful.
+
+Finished linkHelloARVideoNativeArmeabi-v7aDebugSharedLibrary, see full log file:///Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/tmp/linkHelloARVideoNativeArmeabi-v7aDebugSharedLibrary/output.txt.
