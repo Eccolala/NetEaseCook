@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import butterknife.BindView;
 import cn.easyar.samples.helloarvideo.ARPlayer.MainActivity;
 import cn.easyar.samples.helloarvideo.R;
+import cn.easyar.samples.helloarvideo.adapter.HomePagerAdapter;
 import cn.easyar.samples.helloarvideo.base.RxLazyFragment;
 import cn.easyar.samples.helloarvideo.common.HomeActivity;
 import cn.easyar.samples.helloarvideo.widget.CircleImageView;
@@ -46,12 +47,12 @@ public class HomePageFragment extends RxLazyFragment {
 
 
     private void initViewpager() {
-        // HomePagerAdapter mHomeAdapter = new HomePagerAdapter(getChildFragmentManager(),
-        //     getApplicationContext());
-        // mViewPager.setOffscreenPageLimit(3);
-        // mViewPager.setAdapter(mHomeAdapter);
-        // mSlidingTab.setViewPager(mViewPager);
-        // mViewPager.setCurrentItem(1);
+        HomePagerAdapter mHomeAdapter = new HomePagerAdapter(getChildFragmentManager(),
+            getApplicationContext());
+        mViewPager.setOffscreenPageLimit(3);
+        mViewPager.setAdapter(mHomeAdapter);
+        mSlidingTab.setViewPager(mViewPager);
+        mViewPager.setCurrentItem(0);
     }
 
 

@@ -40,6 +40,10 @@
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/fragment_home_recommended.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/layout/fragment_home_recommended.xml"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_singlechoice_material.xml"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/fragment_home_weibo.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/layout/fragment_home_weibo.xml"
     },
     {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/abc_alert_dialog_title_material.xml",
@@ -212,6 +220,10 @@
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu_item.xml"
     },
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/fragment_home_user.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/layout/fragment_home_user.xml"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_layout.xml"
     },
@@ -226,6 +238,10 @@
     {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/design_navigation_menu.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/layout_empty.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/layout/layout_empty.xml"
     },
     {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/layout/design_bottom_navigation_item.xml",

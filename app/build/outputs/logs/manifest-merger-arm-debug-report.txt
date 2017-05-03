@@ -39,6 +39,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/aceler/A
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.0.0] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.0.0/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:26:5-20
 	android:label
 		ADDED from /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
@@ -93,6 +94,7 @@ MERGED from [com.trello:rxlifecycle-components:0.6.1] /Users/aceler/AndroidStudi
 MERGED from [com.trello:rxlifecycle:0.6.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.trello/rxlifecycle/0.6.1/AndroidManifest.xml:17:5-44
 MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/AndroidManifest.xml:6:5-44
 MERGED from [io.reactivex:rxandroid:1.1.0] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -114,6 +116,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/aceler/A
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] /Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:27:9-31
 	android:name

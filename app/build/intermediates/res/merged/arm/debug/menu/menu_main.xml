@@ -6,7 +6,7 @@
 
     <item
         android:id="@+id/id_action_AR"
-        android:icon="@mipmap/ic_toolbar_menu_search"
+        android:icon="@mipmap/ic_scan"
         android:orderInCategory="100"
         android:title="AR 扫一扫"
         app:showAsAction="always"/>

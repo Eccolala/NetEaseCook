@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_scan.png",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_scan.png"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_toolbar_menu_search.png",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_toolbar_menu_search.png"
     },
