@@ -5,10 +5,7 @@ package cn.easyar.samples.helloarvideo.utils;
  */
 
 import android.content.Context;
-import android.os.Handler;
-import android.os.Looper;
 import android.widget.Toast;
-import cn.easyar.samples.helloarvideo.base.CookApplication;
 
 public class ToastUtil {
 
@@ -36,15 +33,7 @@ public class ToastUtil {
     }
 
 
-    public static void ShortToast(final String text) {
 
-        new Handler(Looper.getMainLooper()).post(new Runnable() {
-            @Override public void run() {
-                Toast.
-                    makeText(CookApplication.getInstance(), text, Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
 
 
 }

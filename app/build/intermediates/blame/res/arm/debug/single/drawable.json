@@ -24,6 +24,14 @@
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/design_password_eye.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_password_eye.xml"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_ab_back_material.xml"
     },
@@ -76,6 +84,10 @@
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
@@ -124,12 +136,20 @@
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_tile_bg.xml"
     },
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/design_fab_background.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_fab_background.xml"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/abc_vector_test.xml",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/drawable/abc_ic_voice_search_api_material.xml",

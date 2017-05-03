@@ -10,7 +10,6 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import cn.easyar.engine.EasyAR;
@@ -87,14 +86,5 @@ public class MainActivity extends AppCompatActivity{
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

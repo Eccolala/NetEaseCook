@@ -25,11 +25,11 @@ public class HomeActivity extends RxBaseActivity {
     @Override public void initViews(Bundle savedInstanceState) {
         //初始化Fragment
         initFragments();
-        showFragment();
+        showHomeFragment();
     }
 
 
-    private void showFragment() {
+    private void showHomeFragment() {
         // 添加显示第一个fragment
         getSupportFragmentManager()
             .beginTransaction()
@@ -62,7 +62,7 @@ public class HomeActivity extends RxBaseActivity {
     private void exitApp() {
 
         if (System.currentTimeMillis() - exitTime > 2000) {
-            ToastUtil.ShortToast("再按一次退出");
+            ToastUtil.showShort(HomeActivity.this,"再按一次退出");
             exitTime = System.currentTimeMillis();
         } else {
             finish();
