@@ -4,6 +4,44 @@
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="string" name="title"/>
+    <attr format="color" name="tl_divider_color"/>
+    <attr format="dimension" name="tl_divider_padding"/>
+    <attr format="dimension" name="tl_divider_width"/>
+    <attr format="integer" name="tl_indicator_anim_duration"/>
+    <attr format="boolean" name="tl_indicator_anim_enable"/>
+    <attr format="boolean" name="tl_indicator_bounce_enable"/>
+    <attr format="color" name="tl_indicator_color"/>
+    <attr format="dimension" name="tl_indicator_corner_radius"/>
+    <attr format="enum" name="tl_indicator_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="tl_indicator_height"/>
+    <attr format="dimension" name="tl_indicator_margin_bottom"/>
+    <attr format="dimension" name="tl_indicator_margin_left"/>
+    <attr format="dimension" name="tl_indicator_margin_right"/>
+    <attr format="dimension" name="tl_indicator_margin_top"/>
+    <attr format="enum" name="tl_indicator_style">
+        <enum name="NORMAL" value="0"/>
+        <enum name="TRIANGLE" value="1"/>
+        <enum name="BLOCK" value="2"/>
+    </attr>
+    <attr format="dimension" name="tl_indicator_width"/>
+    <attr format="boolean" name="tl_indicator_width_equal_title"/>
+    <attr format="dimension" name="tl_tab_padding"/>
+    <attr format="boolean" name="tl_tab_space_equal"/>
+    <attr format="dimension" name="tl_tab_width"/>
+    <attr format="boolean" name="tl_textAllCaps"/>
+    <attr format="boolean" name="tl_textBold"/>
+    <attr format="color" name="tl_textSelectColor"/>
+    <attr format="color" name="tl_textUnselectColor"/>
+    <attr format="dimension" name="tl_textsize"/>
+    <attr format="color" name="tl_underline_color"/>
+    <attr format="enum" name="tl_underline_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="tl_underline_height"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
@@ -15,10 +53,23 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="background_dark">#212121</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="bangumi_badge_gary">#e58B8B8C</color>
+    <color name="bangumi_index_green_bg">#75C568</color>
+    <color name="bangumi_index_yellow_bg">#FFC03A</color>
+    <color name="bili_logo_pink_color">#fb7299</color>
+    <color name="black_80">#222222</color>
+    <color name="black_alpha_30">#48000000</color>
+    <color name="black_alpha_45">#71000000</color>
+    <color name="black_alpha_60">#4f000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_30">#20C1FD</color>
+    <color name="blue_dark">#1565C0</color>
+    <color name="blue_trans">#B41A78C3</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -27,14 +78,39 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="card_view_background">@color/white</color>
+    <color name="colorAccent">@android:color/black</color>
+    <color name="colorPrimary">#f0510e</color>
+    <color name="colorPrimaryDark">#bf3f09</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="focus_bg_color">@android:color/transparent</color>
+    <color name="focus_text_color">#fb7299</color>
+    <color name="font_gray">#656565</color>
+    <color name="font_normal">#555555</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="gray">#B8B8B8</color>
+    <color name="gray_20">#B3B3B3</color>
+    <color name="gray_80">#BEBBB4</color>
+    <color name="gray_dark">#999999</color>
+    <color name="gray_light">#dcdcdc</color>
+    <color name="gray_light_30">#E5E5E5</color>
+    <color name="gray_trans">#44999999</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="green_light">#8BC34A</color>
+    <color name="green_light_dark">#558B2F</color>
+    <color name="green_light_trans">#998BC34A</color>
+    <color name="green_trans">#994CAF50</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="item_tag_background">@color/white</color>
+    <color name="item_tag_stroke_background">@color/white_30</color>
+    <color name="line_bg">#e6e6e6</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -47,9 +123,25 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
+    <color name="media_controller_bg">#99000000</color>
+    <color name="nav_head_image_background">#F8668D</color>
+    <color name="nav_head_round_background">#FDC7D6</color>
+    <color name="nav_head_roung_text_background">#FB7BA0</color>
+    <color name="navigation_background_light">#FFF8F8F8</color>
+    <color name="navigation_subtitle_primary_text">#FFFFFFFF</color>
+    <color name="navigation_subtitle_secondary_text">#BFFFFFFF</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="orange">#FF9800</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_dark">#EF6C00</color>
+    <color name="orange_trans">#99FF9800</color>
+    <color name="pink">#fb7299</color>
+    <color name="pink_30">#FD7071</color>
+    <color name="pink_dark">#b85671</color>
+    <color name="pink_text_color">#fb7299</color>
+    <color name="pink_trans">#99f0486c</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -58,8 +150,16 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="purple">#673AB7</color>
+    <color name="purple_dark">#311B92</color>
+    <color name="purple_trans">#99673AB7</color>
+    <color name="red">#F44336</color>
+    <color name="red_dark">#C62828</color>
+    <color name="red_trans">#99F44336</color>
+    <color name="refresh_pink_background">#fb7299</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
+    <color name="search_background_color">#E9EAEA</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
@@ -68,6 +168,21 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="theme_color_primary">#fb7299</color>
+    <color name="theme_color_primary_dark">#b85671</color>
+    <color name="theme_color_primary_trans">#99f0486c</color>
+    <color name="theme_color_secondary">#fb7299</color>
+    <color name="vip_button_bg_color">#FEB1B3</color>
+    <color name="vip_button_text_color">#FE6F70</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_30">#F2F2F2</color>
+    <color name="white_80">#FAFAFA</color>
+    <color name="window_background">#eaeaea</color>
+    <color name="yellow">#FDD835</color>
+    <color name="yellow_30">#FEA501</color>
+    <color name="yellow_50">#FFD11B</color>
+    <color name="yellow_dark">#FBC02D</color>
+    <color name="yellow_trans">#99FDD835</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -112,6 +227,7 @@
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/></declare-styleable>
     <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
     <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
+    <declare-styleable name="CommonTabLayout"><attr name="tl_indicator_color"/><attr name="tl_indicator_height"/><attr name="tl_indicator_width"/><attr name="tl_indicator_margin_left"/><attr name="tl_indicator_margin_top"/><attr name="tl_indicator_margin_right"/><attr name="tl_indicator_margin_bottom"/><attr name="tl_indicator_corner_radius"/><attr name="tl_indicator_gravity"/><attr name="tl_indicator_style"/><attr name="tl_indicator_anim_enable"/><attr name="tl_indicator_anim_duration"/><attr name="tl_indicator_bounce_enable"/><attr name="tl_underline_color"/><attr name="tl_underline_height"/><attr name="tl_underline_gravity"/><attr name="tl_divider_color"/><attr name="tl_divider_width"/><attr name="tl_divider_padding"/><attr name="tl_tab_padding"/><attr name="tl_tab_space_equal"/><attr name="tl_tab_width"/><attr name="tl_textsize"/><attr name="tl_textSelectColor"/><attr name="tl_textUnselectColor"/><attr name="tl_textBold"/><attr name="tl_textAllCaps"/><attr format="dimension" name="tl_iconWidth"/><attr format="dimension" name="tl_iconHeight"/><attr format="boolean" name="tl_iconVisible"/><attr format="enum" name="tl_iconGravity"><enum name="LEFT" value="3"/><enum name="TOP" value="48"/><enum name="RIGHT" value="5"/><enum name="BOTTOM" value="80"/></attr><attr format="dimension" name="tl_iconMargin"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode">
             
             <enum name="src_over" value="3"/>
@@ -147,10 +263,13 @@
             <flag name="collapseActionView" value="8"/>
         </attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/><attr format="reference" name="subMenuArrow"/></declare-styleable>
+    <declare-styleable name="MsgView"><attr format="color" name="mv_backgroundColor"/><attr format="dimension" name="mv_cornerRadius"/><attr format="dimension" name="mv_strokeWidth"/><attr format="color" name="mv_strokeColor"/><attr format="boolean" name="mv_isRadiusHalfHeight"/><attr format="boolean" name="mv_isWidthHeightEqual"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="RecycleListView"><attr format="dimension" name="paddingBottomNoButtons"/><attr format="dimension" name="paddingTopNoTitle"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="SegmentTabLayout"><attr name="tl_indicator_color"/><attr name="tl_indicator_height"/><attr name="tl_indicator_margin_left"/><attr name="tl_indicator_margin_top"/><attr name="tl_indicator_margin_right"/><attr name="tl_indicator_margin_bottom"/><attr name="tl_indicator_corner_radius"/><attr name="tl_indicator_anim_enable"/><attr name="tl_indicator_anim_duration"/><attr name="tl_indicator_bounce_enable"/><attr name="tl_divider_color"/><attr name="tl_divider_width"/><attr name="tl_divider_padding"/><attr name="tl_tab_padding"/><attr name="tl_tab_space_equal"/><attr name="tl_tab_width"/><attr name="tl_textsize"/><attr name="tl_textSelectColor"/><attr name="tl_textUnselectColor"/><attr name="tl_textBold"/><attr name="tl_textAllCaps"/><attr format="color" name="tl_bar_color"/><attr format="color" name="tl_bar_stroke_color"/><attr format="dimension" name="tl_bar_stroke_width"/></declare-styleable>
+    <declare-styleable name="SlidingTabLayout"><attr name="tl_indicator_color"/><attr name="tl_indicator_height"/><attr name="tl_indicator_width"/><attr name="tl_indicator_margin_left"/><attr name="tl_indicator_margin_top"/><attr name="tl_indicator_margin_right"/><attr name="tl_indicator_margin_bottom"/><attr name="tl_indicator_corner_radius"/><attr name="tl_indicator_gravity"/><attr name="tl_indicator_style"/><attr name="tl_indicator_width_equal_title"/><attr name="tl_underline_color"/><attr name="tl_underline_height"/><attr name="tl_underline_gravity"/><attr name="tl_divider_color"/><attr name="tl_divider_width"/><attr name="tl_divider_padding"/><attr name="tl_tab_padding"/><attr name="tl_tab_space_equal"/><attr name="tl_tab_width"/><attr name="tl_textsize"/><attr name="tl_textSelectColor"/><attr name="tl_textUnselectColor"/><attr name="tl_textBold"/><attr name="tl_textAllCaps"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
             
@@ -274,10 +393,91 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="about_bottom_layout_height">50dp</dimen>
+    <dimen name="action_bar_default_height">48dp</dimen>
+    <dimen name="activity_center_card_height">150dp</dimen>
+    <dimen name="activity_center_card_width">170dp</dimen>
+    <dimen name="activity_center_image_height">110dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_default_elevation">0dp</dimen>
+    <dimen name="app_bar_elevation">3dp</dimen>
+    <dimen name="app_logo_size">120dp</dimen>
+    <dimen name="appbar_parallax_max_height">226dp</dimen>
+    <dimen name="bangumi_details_card_view_height">130dp</dimen>
+    <dimen name="bangumi_details_image_height">180dp</dimen>
+    <dimen name="bangumi_details_look_btn_height">25dp</dimen>
+    <dimen name="bangumi_details_more_layout_height">50dp</dimen>
+    <dimen name="bangumi_details_pic_height">130dp</dimen>
+    <dimen name="bangumi_details_pic_width">100dp</dimen>
+    <dimen name="bangumi_details_top_layout_height">250dp</dimen>
+    <dimen name="bangumi_details_top_layout_margin">70dp</dimen>
+    <dimen name="bangumi_details_user_avatar_layout_width">80dp</dimen>
+    <dimen name="bangumi_details_user_avatar_margin_1">15dp</dimen>
+    <dimen name="bangumi_details_user_avatar_margin_2">30dp</dimen>
+    <dimen name="bangumi_details_user_avatar_margin_3">45dp</dimen>
+    <dimen name="bangumi_details_user_avatar_size">24dp</dimen>
+    <dimen name="bangumi_index_image_size">120dp</dimen>
+    <dimen name="bangumi_recommend_image_big_height">170dp</dimen>
+    <dimen name="bangumi_recommend_image_height">140dp</dimen>
+    <dimen name="bangumi_recommend_image_size">22dp</dimen>
+    <dimen name="bangumi_recommend_title_height">50dp</dimen>
+    <dimen name="bangumi_recommend_title_margin">5dp</dimen>
+    <dimen name="bottom_layout_height">60dp</dimen>
+    <dimen name="bottom_shadow_height">50dp</dimen>
+    <dimen name="card_charging_width">110dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_default_height">190dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_image_default_height">120dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="card_small_elevation">0dp</dimen>
+    <dimen name="card_small_radius">2dp</dimen>
+    <dimen name="card_title_margin">5dp</dimen>
+    <dimen name="chase_bangumi_card_height">150dp</dimen>
+    <dimen name="chase_bangumi_image_height">130dp</dimen>
+    <dimen name="chase_bangumi_image_width">100dp</dimen>
+    <dimen name="circle_default_size">120dp</dimen>
+    <dimen name="circle_default_width">1dp</dimen>
+    <dimen name="circle_margin_top">20dp</dimen>
+    <dimen name="circle_progress_view_default_border_width">4dp</dimen>
+    <dimen name="circle_progress_view_default_size">56dp</dimen>
+    <dimen name="circle_progress_view_small_size">56dp</dimen>
+    <dimen name="circle_user_small_size">34dp</dimen>
+    <dimen name="default_big_large_text_size">22sp</dimen>
+    <dimen name="default_big_text_size">18sp</dimen>
+    <dimen name="default_general_margin">10dp</dimen>
+    <dimen name="default_grow_margin">20dp</dimen>
+    <dimen name="default_long_margin">30dp</dimen>
+    <dimen name="default_medium_text_size">16sp</dimen>
+    <dimen name="default_small_padding">8dp</dimen>
+    <dimen name="default_small_text_size">14sp</dimen>
+    <dimen name="default_tiny_margin">3dp</dimen>
+    <dimen name="default_tiny_padding">5dp</dimen>
+    <dimen name="default_tiny_text_size">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="discover_card_view_height">45dp</dimen>
+    <dimen name="discover_item_layout_height">46dp</dimen>
+    <dimen name="discover_text_margin">40dp</dimen>
+    <dimen name="fab_default_elevation">4dp</dimen>
+    <dimen name="fab_margin_height">190dp</dimen>
+    <dimen name="floating_action_button_margin">16dp</dimen>
+    <dimen name="floating_action_button_size_half">32dp</dimen>
+    <dimen name="focus_bangumi_card_height">240dp</dimen>
+    <dimen name="focus_bangumi_image_height">160dp</dimen>
+    <dimen name="focus_dynamic_card_height">200dp</dimen>
+    <dimen name="focus_dynamic_image_height">100dp</dimen>
+    <dimen name="focus_dynamic_image_width">140dp</dimen>
+    <dimen name="focus_dynamic_user_avatar_size">38dp</dimen>
+    <dimen name="focus_dynamic_user_height">70dp</dimen>
+    <dimen name="game_center_bottom_layout_height">70dp</dimen>
+    <dimen name="game_center_button_height">35dp</dimen>
+    <dimen name="game_center_button_width">70dp</dimen>
+    <dimen name="game_center_image_height">160dp</dimen>
+    <dimen name="game_center_layout_height">230dp</dimen>
+    <dimen name="general_banner_height">126dp</dimen>
+    <dimen name="head_image_bg_height">128dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -285,6 +485,37 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="home_recommend_foot_bangumi_layout_height">40dp</dimen>
+    <dimen name="home_recommend_foot_button_height">35dp</dimen>
+    <dimen name="home_recommend_foot_button_width">120dp</dimen>
+    <dimen name="home_recommend_foot_layout_height">60dp</dimen>
+    <dimen name="home_recommend_foot_refresh_margin">7dp</dimen>
+    <dimen name="home_recommend_head_image_size">22dp</dimen>
+    <dimen name="home_recommend_head_layout_height">50dp</dimen>
+    <dimen name="home_topic_head_layout_height">40dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="line_width">120dp</dimen>
+    <dimen name="list_item_vertical_margin_small">8dp</dimen>
+    <dimen name="live_button_margin_bottom">60dp</dimen>
+    <dimen name="live_entrance_image_size">50dp</dimen>
+    <dimen name="live_item_image_height">120dp</dimen>
+    <dimen name="live_item_layout_height">190dp</dimen>
+    <dimen name="live_item_title_image_size">25dp</dimen>
+    <dimen name="live_user_layout_height">70dp</dimen>
+    <dimen name="live_video_player_height">280dp</dimen>
+    <dimen name="load_more_layout_circle_progress_size">20dp</dimen>
+    <dimen name="load_more_layout_circle_progress_width">2dp</dimen>
+    <dimen name="load_more_layout_height">50dp</dimen>
+    <dimen name="login_button_height">45dp</dimen>
+    <dimen name="mediacontroller_bottom_layout_center_margin">12dp</dimen>
+    <dimen name="mediacontroller_bottom_layout_danmaku_padding">3dp</dimen>
+    <dimen name="mediacontroller_buttons_top_margin">2dp</dimen>
+    <dimen name="more_item_image_size">50dp</dimen>
+    <dimen name="navigation_avatar_size">74dp</dimen>
+    <dimen name="navigation_header_height">200dp</dimen>
+    <dimen name="navigation_max_width">320dp</dimen>
+    <dimen name="navigation_subtitle_secondary_text_size">14sp</dimen>
+    <dimen name="normal_txt">16sp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
@@ -300,6 +531,70 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="region_recommend_icon_size">40dp</dimen>
+    <dimen name="search_archive_image_width">160dp</dimen>
+    <dimen name="search_archive_layout_height">100dp</dimen>
+    <dimen name="search_back_padding">12dp</dimen>
+    <dimen name="search_clear_button_margin_end">60dp</dimen>
+    <dimen name="search_edit_margin_end">40dp</dimen>
+    <dimen name="search_edit_margin_start">75dp</dimen>
+    <dimen name="search_item_bangumi_image_height">150dp</dimen>
+    <dimen name="search_item_bangumi_image_width">120dp</dimen>
+    <dimen name="search_item_text_margin_top">15dp</dimen>
+    <dimen name="search_movie_image_height">160dp</dimen>
+    <dimen name="search_movie_image_width">120dp</dimen>
+    <dimen name="search_top_layout_height">50dp</dimen>
+    <dimen name="search_upper_avatar_size">70dp</dimen>
+    <dimen name="search_upper_layout_height">100dp</dimen>
+    <dimen name="shadow_gradient_height">90dp</dimen>
+    <dimen name="sp_preview_padding">10dp</dimen>
+    <dimen name="sp_preview_size">100dp</dimen>
+    <dimen name="splash_logo_margin">60dp</dimen>
+    <dimen name="tab_bar_item_padding">15dp</dimen>
+    <dimen name="tab_indicator_center_width">30dp</dimen>
+    <dimen name="tab_indicator_corner_small_radius">1.5dp</dimen>
+    <dimen name="tab_indicator_corner_tiny_radius">1dp</dimen>
+    <dimen name="tab_indicator_default_height">3dp</dimen>
+    <dimen name="tab_indicator_long_width">40dp</dimen>
+    <dimen name="tab_indicator_small_height">2dp</dimen>
+    <dimen name="tab_indicator_small_width">25dp</dimen>
+    <dimen name="tab_layout_default_height">48dp</dimen>
+    <dimen name="tab_layout_small_height">40dp</dimen>
+    <dimen name="tags_radius">50dp</dimen>
+    <dimen name="text_margin_top">40dp</dimen>
+    <dimen name="title_margin_small">8dp</dimen>
+    <dimen name="touch_raise">6dp</dimen>
+    <dimen name="user_avatar_margin">4dp</dimen>
+    <dimen name="user_avatar_size">38dp</dimen>
+    <dimen name="user_avatar_small_size">30dp</dimen>
+    <dimen name="user_favorites_image_height">100dp</dimen>
+    <dimen name="user_favorites_layout_height">200dp</dimen>
+    <dimen name="user_home_pager_live_layout_height">40dp</dimen>
+    <dimen name="user_info_avatar_margin_top">110dp</dimen>
+    <dimen name="user_info_avatar_size">84dp</dimen>
+    <dimen name="user_info_button_margin_top">180dp</dimen>
+    <dimen name="user_info_details_margin_top">190dp</dimen>
+    <dimen name="user_info_layout_height">320dp</dimen>
+    <dimen name="user_info_top_image_height">160dp</dimen>
+    <dimen name="user_interest_quan_card_height">100dp</dimen>
+    <dimen name="user_interest_quan_image_size">80dp</dimen>
+    <dimen name="user_layout_empty_margin">50dp</dimen>
+    <dimen name="user_name_min_width">72dp</dimen>
+    <dimen name="user_tag_view_height">56dp</dimen>
+    <dimen name="video_details_margin_top">26dp</dimen>
+    <dimen name="video_details_text_height">30dp</dimen>
+    <dimen name="video_details_text_width">70dp</dimen>
+    <dimen name="video_info_count_text_margin_start">4dp</dimen>
+    <dimen name="video_info_mini_icons_size">12dp</dimen>
+    <dimen name="video_info_sp_layout_height">150dp</dimen>
+    <dimen name="video_item_image_small_width">120dp</dimen>
+    <dimen name="video_item_image_width">140dp</dimen>
+    <dimen name="video_item_layout_height">90dp</dimen>
+    <dimen name="video_item_layout_small_height">90dp</dimen>
+    <dimen name="vip_head_image_margin_top">50dp</dimen>
+    <dimen name="vip_head_layout_height">330dp</dimen>
+    <dimen name="vip_toolbar_title_margin_start">30dp</dimen>
+    <dimen name="weekday_bangumi_head_height">60dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -348,16 +643,16 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">HelloARVideoNative</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <style name="ARTheme" parent="Theme.AppCompat.Light.NoActionBar.FullScreen"/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <!-- Customize your theme here. -->
-    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>
@@ -1368,6 +1663,15 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
+    <style name="BaseAppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+    <style name="MainActivityColorTranslucentTheme" parent="@style/BaseAppTheme"/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 

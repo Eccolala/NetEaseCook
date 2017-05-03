@@ -1,8 +1,8 @@
 See file:///Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/tmp/compileHelloARVideoNativeArmeabi-v7aDebugSharedLibraryHelloARVideoNativeArmeabi-v7aDebugSharedLibraryMainCpp/output.txt for all output for compileHelloARVideoNativeArmeabi-v7aDebugSharedLibraryHelloARVideoNativeArmeabi-v7aDebugSharedLibraryMainCpp.
 compiling renderer.cc successful.
 
-compiling helloarvideo.cc successful.
-
 compiling ar.cc successful.
+
+compiling helloarvideo.cc successful.
 
 Finished compileHelloARVideoNativeArmeabi-v7aDebugSharedLibraryHelloARVideoNativeArmeabi-v7aDebugSharedLibraryMainCpp, see full log file:///Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/tmp/compileHelloARVideoNativeArmeabi-v7aDebugSharedLibraryHelloARVideoNativeArmeabi-v7aDebugSharedLibraryMainCpp/output.txt.

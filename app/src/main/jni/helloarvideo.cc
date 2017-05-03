@@ -9,7 +9,7 @@
 #include <jni.h>
 #include <GLES2/gl2.h>
 
-#define JNIFUNCTION_NATIVE(sig) Java_cn_easyar_samples_helloarvideo_MainActivity_##sig
+#define JNIFUNCTION_NATIVE(sig) Java_cn_easyar_samples_helloarvideo_ARPlayer_MainActivity_##sig
 
 extern "C" {
     JNIEXPORT jboolean JNICALL JNIFUNCTION_NATIVE(nativeInit(JNIEnv* env, jobject object));

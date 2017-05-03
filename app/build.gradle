@@ -1,5 +1,6 @@
 apply plugin: 'com.android.model.application'
 
+
 model {
     android {
         compileSdkVersion = 25
@@ -7,7 +8,7 @@ model {
 
         defaultConfig.with {
             applicationId = "cn.easyar.samples.helloarvideo"
-            minSdkVersion.apiLevel  =15
+            minSdkVersion.apiLevel = 15
             targetSdkVersion.apiLevel = 22
             versionCode = 1
             versionName = "1.0"
@@ -36,12 +37,16 @@ model {
             }
         }
     }
-    repositories{
-        libs(PrebuiltLibraries){
-            prebuilt{
+
+
+
+    repositories {
+        libs(PrebuiltLibraries) {
+            prebuilt {
                 headers.srcDirs "../../../package/include"
-                binaries.withType(SharedLibraryBinary){
-                    sharedLibraryFile = file("../../../package/Android/libs/armeabi-v7a/libEasyAR.so")
+                binaries.withType(SharedLibraryBinary) {
+                    sharedLibraryFile =
+                            file("../../../package/Android/libs/armeabi-v7a/libEasyAR.so")
                 }
             }
         }
@@ -60,9 +65,14 @@ model {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: '../../../package/Android/libs')
-    testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.jakewharton:butterknife:8.5.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.0.0@aar'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'com.trello:rxlifecycle-components:0.6.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }
