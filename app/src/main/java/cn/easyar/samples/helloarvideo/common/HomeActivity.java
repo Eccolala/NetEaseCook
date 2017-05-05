@@ -5,6 +5,7 @@ import android.view.KeyEvent;
 import cn.easyar.samples.helloarvideo.R;
 import cn.easyar.samples.helloarvideo.base.RxBaseActivity;
 import cn.easyar.samples.helloarvideo.module.home.HomePageFragment;
+import cn.easyar.samples.helloarvideo.utils.BmobBuilder;
 import cn.easyar.samples.helloarvideo.utils.ToastUtil;
 
 /**
@@ -26,6 +27,8 @@ public class HomeActivity extends RxBaseActivity {
         //初始化Fragment
         initFragments();
         showHomeFragment();
+        BmobBuilder.saveVue();
+
     }
 
 
