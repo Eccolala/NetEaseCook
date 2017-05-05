@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/io.reactivex-rxandroid-1.2.0_54436cdb3798bf664dbf1ba408acaa7f3dbf4394.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/aceler/AndroidStudioProjects/Graudate/package/Android/libs/EasyAR.jar"
         jumboMode="false"
         optimize="true"
@@ -75,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/io.reactivex-rxandroid-1.1.0_df3fed9648b4c1ed13126193b48f78b2f14731fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,6 +120,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/aceler/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.4/3cc424c6eda381bf4aee40dc3ccdecc27b2106aa/rxjava-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3cc424c6eda381bf4aee40dc3ccdecc27b2106aa">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/rxjava-1.1.4_8c6b682dffc75ab9f8ecfc2a586fbdfd6218a044.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.trello/rxlifecycle-components/0.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -156,30 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/aceler/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/rxjava-1.1.6_1a22c3c529c2d063b6023dcf2b30082377394d43.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.android.support-appcompat-v7-25.3.1_af5dc969bae08636e0712b05c0d8663ef159d50c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/aceler/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/commons-cli-1.2_3ea0dada7b52046a94f6a0e62e6d0727389c4f45.jar" />
     </item>
     <item
         is-multidex="false"
@@ -192,12 +183,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.facebook.stetho/stetho/1.5.0/jars/classes.jar"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="fab3c7faab3bc30df0fbf2cbebfcb21753c95260">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.facebook.stetho-stetho-1.5.0_d905e247efa736253079e7783239efe6a41fd651.jar" />
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.jakewharton.rxbinding-rxbinding-0.4.0_6b912c48030ca32b83036a5f4c9e2f35e6328ce0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -207,24 +198,6 @@
         revision="25.0.2"
         sha1="3a98a50c56978d02c0651d12f5a26c3e7c31c397">
         <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.trello-rxlifecycle-0.6.1_0b2bcc2400c0da8cf2fd140358543e432445f9b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/aceler/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/jsr305-2.0.1_ec1fdacd20617cf3203435e4d54aafd1ce795037.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.jakewharton.rxbinding-rxbinding-0.4.0_6b912c48030ca32b83036a5f4c9e2f35e6328ce0.jar" />
     </item>
     <item
         is-multidex="false"
