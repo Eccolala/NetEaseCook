@@ -38,3 +38,5 @@ build/
 *.keystore
 .externalNativeBuild
 /app/release.jks
+
+.idea/workspace.xml
