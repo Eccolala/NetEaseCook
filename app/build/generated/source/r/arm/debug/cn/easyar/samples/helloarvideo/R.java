@@ -4054,8 +4054,9 @@ containing a value of this type.
         public static final int ic_tv_play=0x7f030014;
         public static final int ic_tv_stop=0x7f030015;
         public static final int ic_watching=0x7f030016;
-        public static final int send=0x7f030017;
-        public static final int videoplayer_erect_icon_round=0x7f030018;
+        public static final int ico_user_default=0x7f030017;
+        public static final int send=0x7f030018;
+        public static final int videoplayer_erect_icon_round=0x7f030019;
     }
     public static final class string {
         public static final int Aceler=0x7f070032;

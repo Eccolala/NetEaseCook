@@ -1459,8 +1459,9 @@ int mipmap ic_toolbar_menu_search 0x7f030013
 int mipmap ic_tv_play 0x7f030014
 int mipmap ic_tv_stop 0x7f030015
 int mipmap ic_watching 0x7f030016
-int mipmap send 0x7f030017
-int mipmap videoplayer_erect_icon_round 0x7f030018
+int mipmap ico_user_default 0x7f030017
+int mipmap send 0x7f030018
+int mipmap videoplayer_erect_icon_round 0x7f030019
 int string Aceler 0x7f070032
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001

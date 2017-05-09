@@ -177,7 +177,7 @@ public class VideoDetailsActivity extends RxBaseActivity {
         fragments.add(mVideoCommentFragment);
 
         // setPagerTitle(String.valueOf(mVideoDetailsInfo.getStat().getReply()));
-        setPagerTitle(String.valueOf(1024));
+        setPagerTitle("");
     }
 
 
@@ -204,7 +204,7 @@ public class VideoDetailsActivity extends RxBaseActivity {
 
     private void setPagerTitle(String num) {
         titles.add("简介");
-        titles.add("评论" + "(" + num + ")");
+        titles.add("评论");
 
         VideoDetailsPagerAdapter mAdapter = new VideoDetailsPagerAdapter(
             getSupportFragmentManager(),
