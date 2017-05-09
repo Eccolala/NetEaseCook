@@ -4,6 +4,26 @@
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_scan.png"
     },
     {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_category_more_refresh.png",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_category_more_refresh.png"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/daily_video_action_bg.png",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/daily_video_action_bg.png"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_share_green.png",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_share_green.png"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_header_hot.png",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_header_hot.png"
+    },
+    {
+        "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_category_t160.png",
+        "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_category_t160.png"
+    },
+    {
         "merged": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/res/merged/arm/debug/mipmap-hdpi/ic_toolbar_menu_search.png",
         "source": "/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/src/main/res/mipmap-hdpi/ic_toolbar_menu_search.png"
     },

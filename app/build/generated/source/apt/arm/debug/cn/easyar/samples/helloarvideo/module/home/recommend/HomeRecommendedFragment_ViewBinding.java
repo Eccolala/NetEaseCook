@@ -4,6 +4,7 @@ package cn.easyar.samples.helloarvideo.module.home.recommend;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -19,6 +20,7 @@ public class HomeRecommendedFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     target.mSwipeRefreshLayout = Utils.findRequiredViewAsType(source, R.id.swipe_refresh_layout, "field 'mSwipeRefreshLayout'", SwipeRefreshLayout.class);
+    target.mRecyclerView = Utils.findRequiredViewAsType(source, R.id.recycle, "field 'mRecyclerView'", RecyclerView.class);
   }
 
   @Override
@@ -29,5 +31,6 @@ public class HomeRecommendedFragment_ViewBinding implements Unbinder {
     this.target = null;
 
     target.mSwipeRefreshLayout = null;
+    target.mRecyclerView = null;
   }
 }

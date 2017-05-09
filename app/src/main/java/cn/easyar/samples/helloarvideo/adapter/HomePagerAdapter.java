@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import cn.easyar.samples.helloarvideo.R;
 import cn.easyar.samples.helloarvideo.module.home.recommend.HomeRecommendedFragment;
 import cn.easyar.samples.helloarvideo.module.home.user.HomeUserFragment;
-import cn.easyar.samples.helloarvideo.module.home.weibo.HomeWeiboFragment;
 
 /**
  * Designed by hcc on 16/8/4 14:12
@@ -39,9 +38,6 @@ public class HomePagerAdapter extends FragmentPagerAdapter {
                     fragments[position] = HomeRecommendedFragment.newInstance();
                     break;
                 case 1:
-                    fragments[position] = HomeWeiboFragment.newIntance();
-                    break;
-                case 2:
                     fragments[position] = HomeUserFragment.newInstance();
                     break;
                 default:

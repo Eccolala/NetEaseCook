@@ -52,7 +52,6 @@ public class HomeActivity extends RxBaseActivity {
         return true;
     }
 
-
     /**
      * 退出 App
      */
@@ -62,7 +61,7 @@ public class HomeActivity extends RxBaseActivity {
     private void exitApp() {
 
         if (System.currentTimeMillis() - exitTime > 2000) {
-            ToastUtil.showShort(HomeActivity.this,"再按一次退出");
+            ToastUtil.showShort(HomeActivity.this, "再按一次退出");
             exitTime = System.currentTimeMillis();
         } else {
             finish();

@@ -1,7 +1,6 @@
 <resources>
     <string-array name="sections">
         <item>@string/section_recommend</item>
-        <item>@string/section_weibo</item>
         <item>@string/section_user</item>
     </string-array>
 
@@ -16,4 +15,11 @@
     <string name="section_recommend">推荐</string>
     <string name="section_weibo">社区</string>
     <string name="section_user">用户</string>
+
+    <string name="video_error_text_invalid_progressive_playback">抱歉，这个视频无法在此设备上缓冲</string>
+    <string name="video_error_text_unknown">抱歉，这个视频不能播放</string>
+    <string name="video_error_button">OK</string>
+    <string name="video_error_title">无法播放此视频</string>
+
+
 </resources>

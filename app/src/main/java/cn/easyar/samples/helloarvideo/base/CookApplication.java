@@ -22,7 +22,7 @@ public class CookApplication extends Application {
 
     private void startLeanClound() {
         // 初始化参数依次为 this, AppId, AppKey
-        AVOSCloud.initialize(this, "bQ8tfxRU7XEEhIaBj95m9eM3-gzGzoHsz", "KFJDcLMAwqpfuXbuB5CrIl2K");
+        AVOSCloud.initialize(this, "GMynXdsaV090VvlwbhAC476X-gzGzoHsz", "JPOefd9mzSsftVF1b7mHwxRd");
     }
 
     public static CookApplication getInstance(){

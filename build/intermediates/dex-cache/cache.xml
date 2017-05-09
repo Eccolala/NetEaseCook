@@ -57,12 +57,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.google.android.gms-play-services-base-8.4.0_1352938809afb114e211b2ab36bcf7a9d476df23.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/aceler/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
         <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/butterknife-annotations-8.5.1_d2b05318dce449b929e0ce2661d5ad68eb72df00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-armv7a/0.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="883eb9c3bde63636505e42fc6cad790f4739b0d3">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/tv.danmaku.ijk.media-ijkplayer-armv7a-0.6.0_477751cebc6d2ef61ecc119a185aef178ec0a9a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.google.android.gms-play-services-basement-8.4.0_f7d8416ae0c86c00b4614bdc50afdae6ba7eeb7f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -117,6 +144,24 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.android.support-support-v4-25.3.1_35c25afa0612c78df0f8a65c434934c6c4de412f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-x86/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ee388e9d9bb847464fdc754ccc1f4e0bbd75f17">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/tv.danmaku.ijk.media-ijkplayer-x86-0.6.1_0b88a91196354bf253d5414ec09a92b89d4c2de4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-armv5/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c988f84573ec9aeff828191f353ff401e7e8c272">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/tv.danmaku.ijk.media-ijkplayer-armv5-0.6.1_9b69e2eaa1c893f91c55ab9b9c7986e28bf85e0b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,15 +228,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
-        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.jakewharton.rxbinding-rxbinding-0.4.0_6b912c48030ca32b83036a5f4c9e2f35e6328ce0.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.trello/rxlifecycle/0.6.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -201,12 +237,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.jakewharton.rxbinding-rxbinding-0.4.0_6b912c48030ca32b83036a5f4c9e2f35e6328ce0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/libs/lite-orm-1.9.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7691b96fd27f2991cb4779c22f9089bf268945c8">
         <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/lite-orm-1.9.2_7fb80c71395ce87a09f6fe54d76e023c53cd7fc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/tv.danmaku.ijk.media/ijkplayer-java/0.6.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a13789ec9e884e49740bb970550fabcb340466c1">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/tv.danmaku.ijk.media-ijkplayer-java-0.6.0_03252b10463215d60ad7866116584323f0445c3d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -252,6 +306,15 @@
         revision="25.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
         <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.android.support-recyclerview-v7-25.3.1_e01bb2a8e39ca735b221c1189f54250416fd5787.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/aceler/AndroidStudioProjects/Graudate/Android/HelloARVideoNative/app/build/intermediates/pre-dexed/arm/debug/com.google.android.gms-play-services-appindexing-8.4.0_c4e4ec85f8c511e637bd08ac1b71f2cda6b32809.jar" />
     </item>
     <item
         is-multidex="false"
